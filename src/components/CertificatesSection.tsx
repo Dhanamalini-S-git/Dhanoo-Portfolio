@@ -1,39 +1,39 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import certificate1 from "@/assets/nptel.png";
-import certificate2 from "@/assets/oracle.png";
-import certificate3 from "@/assets/ai intern.png";
-import certificate4 from "@/assets/aws.png";
-import certificate5 from "@/assets/mango.png";
-import certificate6 from "@/assets/recsar.png";
-import certificate7 from "@/assets/oracl.png";
+import certificate1 from "@/assets/cloud.jpeg";
+import certificate2 from "@/assets/oracle.jpeg";
+import certificate3 from "@/assets/data sci.jpeg";
+import certificate4 from "@/assets/ebox.jpeg";
+import certificate5 from "@/assets/mongo.png";
+import certificate6 from "@/assets/recsar.jpeg";
+import certificate7 from "@/assets/itech.jpeg";
 import certificate8 from "@/assets/ibm.png";
-import certificate9 from "@/assets/rit.png";
-import certificate10 from "@/assets/hp.png";
-import certificate11 from "@/assets/orac.png";
-import certificate12 from "@/assets/dci.png";
-import certificate13 from "@/assets/ibm1.png";
-import certificate14 from "@/assets/hr.png";
+import certificate9 from "@/assets/rit.jpeg";
+import certificate10 from "@/assets/hp life.png";
+import certificate11 from "@/assets/kalam.jpeg";
+import certificate12 from "@/assets/dci.jpeg";
+import certificate13 from "@/assets/wadhwani.png";
+import certificate14 from "@/assets/analytics.jpeg";
 import certificate15 from "@/assets/tata.png";
-import certificate16 from "@/assets/goo.png";
+import certificate16 from "@/assets/poster.jpeg";
 
 const certificates = [
   { title: "Cloud computing", organization: "NPTEL", image: certificate1 },
-  { title: "OCI Developer Professional", organization: "Oracle", image: certificate2 },
-  { title: "AI Internship", organization: "Codec Technologies", image: certificate3 },
-  { title: "AWS Cloud", organization: "Amazon Web Services", image: certificate4 },
+  { title: "OCI Generative AI Professional", organization: "Oracle", image: certificate2 },
+  { title: "Data Science", organization: "Cognitive Class", image: certificate3 },
+  { title: "Problem Solving and Programming in C", organization: "eBox", image: certificate4 },
   { title: "MongoDB Basics", organization: "MongoDB", image: certificate5 },
-  { title: "Full Stack Development ", organization: "Reccsar", image: certificate6 },
-  { title: "OCI Foundations Associate", organization: "Oracle", image: certificate7 },
+  { title: "Data Analytics Using Python ", organization: "Reccsar", image: certificate6 },
+  { title: "Full Stack Development", organization: "ITech Academy", image: certificate7 },
   { title: "Introduction To RAG", organization: "IBM SkillsBuild", image: certificate8 },
   { title: "RIT Participation", organization: "Rajalakshmi Institute of Technology", image: certificate9 },
   { title: "Data Science & Analytics", organization: "hp", image: certificate10 },
-  { title: "OCI AI Foundations Associate", organization: "Oracle", image: certificate11 },
+  { title: "Women Safety Gadget Project", organization: "Anna University", image: certificate11 },
   { title: "Mobile App Development", organization: "Dot Com Infoway Ltd.", image: certificate12 },
-  { title: "Ethical Considerations For Generative AI", organization: "IBM SkillsBuild", image: certificate13 },
-  { title: "SQL Advanced", organization: "Hackerrank", image: certificate14 },
-  { title: "Generative AI", organization: "TATA", image: certificate15 },
-  { title: "Digital Transfromation with Google Cloud", organization: "Google Cloud", image: certificate16 },
+  { title: "Ignite Bootcamp ", organization: "Wadhwani Foundation", image: certificate13 },
+  { title: "Data Analytics", organization: "NPTEL", image: certificate14 },
+  { title: "Generative AI Powered Data Analytics", organization: "TATA", image: certificate15 },
+  { title: "Paper Presentation Participation", organization: "SRM COLLEGE Madurai", image: certificate16 },
 ];
 
 const CertificatesSection = () => {

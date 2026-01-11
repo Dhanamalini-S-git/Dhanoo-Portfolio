@@ -24,7 +24,7 @@ I’m actively looking for opportunities—internships, projects, and collaborat
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-12">
             <a
-              href="https://www.linkedin.com/in/arunraja-k"
+              href="https://www.linkedin.com/in/dhanamalini-s/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-secondary rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
@@ -33,7 +33,7 @@ I’m actively looking for opportunities—internships, projects, and collaborat
               <span className="font-medium">LinkedIn</span>
             </a>
             <a
-              href="https://github.com/arunraja-web"
+              href="https://github.com/Dhanamalini-S-git"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-secondary rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"

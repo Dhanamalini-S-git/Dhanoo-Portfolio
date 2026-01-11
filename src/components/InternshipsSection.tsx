@@ -2,16 +2,16 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const internships = [
   {
-    title: "Artifical Intelligence Intern",
-    company: "Codec Technologies Pvt. Ltd. ",
-    period: "Dec 2025 - Jan 2026",
+    title: "Data Analytics Intern",
+    company: "Reccsar Pvt. Ltd. ",
+    period: "Jan 2025 - Feb 2025",
     description:
-      "Built responsive React.js interfaces and enhanced UI/UX through design collaboration.",
+      "Internship in Data Analytics – Assisted in collecting, cleaning, and analyzing datasets to identify business insights. Collaborated with the team to create dashboards and reports that improved decision-making efficiency",
   },
   {
     title: "Full Stack Developer Intern",
-    company: "reccsar Private Ltd.",
-    period: "Jun 2025 - Feb 2025",
+    company: "Itech Academy",
+    period: " Feb 2025",
     description:
       "Built RESTful APIs using Node.js and Express, integrated MongoDB databases, and created dynamic frontend interfaces.",
   },

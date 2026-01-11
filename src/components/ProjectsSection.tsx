@@ -10,14 +10,14 @@ const projects = [
     description: "A simple Tic Tac Toe game with interactive UI and multiplayer logic.",
     image: project1,
     technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/arunraja-web/TICTACTOE-Game-Project.git",
+    github: "https://github.com/Dhanamalini-S-git/Tictactoe_game.git",
   },
   {
-    title: "Artifical Intelligence Project",
-    description: "Spam Email Classifier, Movie Recommendation System",
+    title: "Cognifyz Java Development Project",
+    description: "Building robust, scalable, and efficient applications with clean code and modern practices.",
     image: project2,
-    technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Scikit learn", "Seaborn"],
-    github: "https://github.com/arunraja-web/Codec-Technologies-AI-project.git",
+    technologies: ["Java", "Core Java", "Advance Java"],
+    github: "https://github.com/Dhanamalini-S-git/Cognifyz-Java-Development-Project.git",
     live: "#",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description: "Predictive model for analyzing sales trends and forecasting future performance.",
     image: project3,
     technologies: ["Machine Learning", "Seaborn", "PowerBI", "Excel"],
-    github: "https://github.com/arunraja-web/Sales-Prediction-project.git",
+    github: "https://github.com/Dhanamalini-S-git/Sales-Prediction-project.git",
     live: "#",
   },
 ];

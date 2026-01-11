@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
-import profileImage from "@/assets/Arun.png";
+import profileImage from "@/assets/dhanoo.png";
 
 const HeroSection = () => {
   const scrollToSection = (href: string) => {
@@ -22,7 +22,7 @@ const HeroSection = () => {
               Welcome to my portfolio
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-4">
-              I'm <span className="text-primary">ARUNRAJA K</span>
+              I'm <span className="text-primary">DHANAMALINI S</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
               Mern Stack Developer | Data Analyst | Java Developer | UI&UX Designer
@@ -57,7 +57,7 @@ const HeroSection = () => {
                 className="font-semibold"
                 asChild
               >
-                <a href="/ARUN RESUME.pdf" download>
+                <a href="/DhanaMalini Resume.pdf" download>
                   <Download className="mr-2 h-5 w-5" />
                   DOWNLOAD CV
                 </a>
@@ -67,7 +67,7 @@ const HeroSection = () => {
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
               <a
-                href="https://github.com/arunraja-web"
+                href="https://github.com/Dhanamalini-S-git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-card border border-border rounded-full hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110"
@@ -75,7 +75,7 @@ const HeroSection = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/arunraja-k"
+                href="https://www.linkedin.com/in/dhanamalini-s/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-card border border-border rounded-full hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110"
@@ -83,7 +83,7 @@ const HeroSection = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:rarun6706@example.com"
+                href="mailto:dhanamalini80@example.com"
                 className="p-3 bg-card border border-border rounded-full hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110"
               >
                 <Mail className="h-5 w-5" />
