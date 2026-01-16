@@ -13,17 +13,17 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center pt-20 bg-background"
+      className="min-h-screen flex items-center pt-20 bg-background hero-gradient"
     >
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left animate-fade-in">
-            <p className="text-primary font-medium mb-4 tracking-wider uppercase">
+            <p className="text-primary font-medium mb-4 tracking-wider uppercase glow-text">
               Welcome to my portfolio
             </p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-4">
-              I'm <span className="text-primary">DHANAMALINI S</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-4 section-title">
+              I'm <span className="text-gradient">DHANAMALINI S</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
               Mern Stack Developer | Data Analyst | Java Developer | UI&UX Designer
@@ -93,12 +93,17 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right Content - Profile Picture */}
+          {/* Right Content - Profile Picture with Animated Rings */}
           <div className="flex-1 flex justify-center lg:justify-end">
-            <div className="relative group">
-              <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl animate-glow"></div>
+            <div className="relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
+              {/* First Ring */}
+              <div className="absolute w-full h-full rounded-full border-4 border-primary/40 animate-spin-slow"></div>
+              {/* Second Ring */}
+              <div className="absolute w-[110%] h-[110%] rounded-full border-4 border-accent/40 animate-spin-reverse"></div>
+
+              {/* Profile Image */}
               <a
-                href="https://www.linkedin.com/in/dhanamalini-s/" // 👉 Change to your desired page
+                href="https://www.linkedin.com/in/dhanamalini-s/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative z-10 block"
@@ -107,7 +112,7 @@ const HeroSection = () => {
                   src={profileImage}
                   alt="Profile"
                   className="w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-primary/30 
-                             transition-transform duration-300 hover:scale-105 hover:border-primary cursor-pointer"
+                             transition-transform duration-300 hover:scale-105 hover:border-primary cursor-pointer glow-border"
                 />
               </a>
             </div>
