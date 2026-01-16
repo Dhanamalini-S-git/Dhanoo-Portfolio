@@ -17,6 +17,7 @@ const HeroSection = () => {
     >
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+          {/* Left Content */}
           <div className="flex-1 text-center lg:text-left animate-fade-in">
             <p className="text-primary font-medium mb-4 tracking-wider uppercase">
               Welcome to my portfolio
@@ -33,6 +34,7 @@ const HeroSection = () => {
               I transform ideas into powerful, user-friendly applications that make a difference.
             </p>
 
+            {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Button
                 variant="default"
@@ -91,14 +93,23 @@ const HeroSection = () => {
             </div>
           </div>
 
+          {/* Right Content - Profile Picture */}
           <div className="flex-1 flex justify-center lg:justify-end">
-            <div className="relative">
+            <div className="relative group">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl animate-glow"></div>
-              <img
-                src={profileImage}
-                alt="Profile"
-                className="relative z-10 w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-primary/30"
-              />
+              <a
+                href="https://www.linkedin.com/in/dhanamalini-s/" // 👉 Change to your desired page
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative z-10 block"
+              >
+                <img
+                  src={profileImage}
+                  alt="Profile"
+                  className="w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-primary/30 
+                             transition-transform duration-300 hover:scale-105 hover:border-primary cursor-pointer"
+                />
+              </a>
             </div>
           </div>
         </div>
