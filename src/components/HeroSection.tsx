@@ -19,23 +19,23 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left animate-fade-in">
-            <p className="text-primary font-medium mb-4 tracking-wider uppercase glow-text">
+            <p className="text-primary font-medium mb-4 tracking-wider uppercase glow-text font-sans">
               Welcome to my portfolio
             </p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-4 section-title">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 section-title">
               I'm <span className="text-gradient">DHANAMALINI S</span>
             </h1>
-            <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
+            <h2 className="text-xl md:text-2xl text-muted-foreground mb-6 font-sans">
               Mern Stack Developer | Data Analyst | Java Developer | UI&UX Designer
             </h2>
-            <p className="text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-sans">
               I'm a passionate developer with a keen eye for design and a love for creating 
               seamless digital experiences. With expertise in modern web technologies, 
               I transform ideas into powerful, user-friendly applications that make a difference.
             </p>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 font-sans">
               <Button
                 variant="default"
                 size="lg"
@@ -118,9 +118,4 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  );
-};
-
-export default HeroSection;
+      </div
