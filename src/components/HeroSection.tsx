@@ -26,11 +26,11 @@ const HeroSection = () => {
               I'm <span className="text-gradient">DHANAMALINI S</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground mb-6 font-sans">
-              Mern Stack Developer | Data Analyst | Java Developer | UI&UX Designer
+              Mern Stack Developer | Data Analyst | Java Developer | UI & UX Designer
             </h2>
             <p className="text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-sans">
-              I'm a passionate developer with a keen eye for design and a love for creating 
-              seamless digital experiences. With expertise in modern web technologies, 
+              I'm a passionate developer with a keen eye for design and a love for creating
+              seamless digital experiences. With expertise in modern web technologies,
               I transform ideas into powerful, user-friendly applications that make a difference.
             </p>
 
@@ -119,3 +119,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+    </section>
+  );
+};
+
+export default HeroSection;
