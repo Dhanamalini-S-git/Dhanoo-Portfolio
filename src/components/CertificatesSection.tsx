@@ -3,9 +3,9 @@ import { X } from "lucide-react";
 
 // Certificate Images
 import certificateOracle from "@/assets/oracle.jpeg";
+import certificateITech from "@/assets/itech.jpeg";
 import certificateReccsar from "@/assets/recsar.jpeg";
 import certificateIBM from "@/assets/ibm.png";
-import certificateITech from "@/assets/itech.jpeg";
 import certificateDCI from "@/assets/dci.jpeg";
 
 // Certificates Data (Only 5)
