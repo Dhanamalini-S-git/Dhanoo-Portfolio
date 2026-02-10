@@ -10,6 +10,9 @@ const navLinks = [
   { name: "Certificates", href: "#certificates" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
+  { name: "Badges", href: "#badges" },
+ 
+
 ];
 
 const Navbar = () => {
