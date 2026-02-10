@@ -5,6 +5,7 @@ import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
 import InternshipsSection from "@/components/InternshipsSection";
 import CertificatesSection from "@/components/CertificatesSection";
+import BadgesSection from "@/components/Badges";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
