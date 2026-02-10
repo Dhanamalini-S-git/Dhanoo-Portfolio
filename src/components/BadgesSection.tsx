@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 
-import aws from "@/assets/5.png";
+//import aws from "@/assets/5.png";
 import oracle from "@/assets/2.png";
 import ibm from "@/assets/4.png";
 import google from "@/assets/3.png";
