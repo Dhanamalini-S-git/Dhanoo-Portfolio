@@ -23,7 +23,7 @@ const badges = [
     image: ibm,
   },
   {
-    title: "OCI AI Foundstions Associate",
+    title: "OCI AI Foundations Associate",
     platform: "Oracle",
     image: google,
   },
