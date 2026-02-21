@@ -23,7 +23,7 @@ const Index = () => {
       <CertificatesSection />
 
       {/* ✅ BADGES SECTION ADDED HERE */}
-      <BadgesSection />
+      //<BadgesSection />
 
       <ProjectsSection />
       <ContactSection />
